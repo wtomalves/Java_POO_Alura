@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Condicional {
     public static void main(String[] args) {
-        int anoDeLancamento = 2022;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o ano do filme Top Gan: ");
+        int anoDeLancamento = scan.nextInt();
         boolean incluidoNoPlano = true;
         String tipoPlano = "plus";
 
